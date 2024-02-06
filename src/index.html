@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Judul Halaman Anda</title>
+  </head>
+
+  <body>
+    <!-- Bagian Header Dimukai -->
+
+    <header
+      class="bg-transparent absolute lg:py-1 py-5 top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary"
+              >Ivandi_Ydwn</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+            </button>
+
+            <nav
+              id="navMenu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#galery"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Galery</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Bagian Header Selesai -->
+
+    <!-- Bagian Hero Dimulai -->
+
+    <section id="home" class="pt-36 dark:bg-dark">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Halo Semua 👋, Saya
+              <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
+                Ivandi Yudistiawan
+              </span>
+            </h1>
+            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
+              Mahasiswa <span class="text-dark">Pens Sumenep</span>
+            </h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">
+              Kesuksesan: bukan hanya materi, tapi juga ketenangan batin.
+              Kepuasan pada detail kecil, cinta pada proses belajar, serta
+              berbagi kebaikan, menjadi inti dari keberhasilan
+              <span class="text-dark font-bold"
+                >Menjadi inti dari keberhasilan sejati.</span
+              >
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-3xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+            >
+              Hubungi Saya.
+            </a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="../dist/img/ivandi.png"
+                alt="Ivandi Yudistiawan"
+                class="max-w-full mx-auto"
+                id="ivan-img"
+              />
+              <span
+                class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-100"
+              >
+                <svg
+                  width="400"
+                  heigth="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#14b8a6"
+                    d="M56.4,-17.4C65.8,10.6,61.1,44.1,42.1,57.9C23.1,71.8,-10.3,65.9,-31.5,49.1C-52.6,32.4,-61.6,4.7,-54.3,-20.4C-47.1,-45.4,-23.5,-67.9,0,-67.9C23.5,-67.9,47,-45.4,56.4,-17.4Z"
+                    transform="translate(100 100) scale(1.2)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Hero Selesai -->
+
+    <!-- Aobout Section Start -->
+
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold text-primary text-lg mb-2 justify-center">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:4xl">
+              Pendidikan
+            </h2>
+            <div class="bg-slate-100 px-3 py-2 rounded-lg">
+              <p class="font-serif text-black max-w-xl lg:text-lg text-2xl">
+                Politeknik Eletronika Negri surabaya - kampus Sumenep.
+              </p>
+              <p
+                class="mb-2 font-serif text-black max-w-xl lg:text-lg text-2xl"
+              >
+                2020 Selesai
+              </p>
+              <p
+                class="mb-5 font-medium text-base text-slate-700 max-w-xl flex"
+              >
+                - Saya adalah mahasiswa Informatika yang sedang menempuh
+                pendidikan di Politeknik Eletronika Negri surabaya - kampus
+                Sumenep.
+              </p>
+              <p class="font-serif text-black max-w-xl lg:text-lg text-2xl">
+                SMKN 1 SUMENEP
+              </p>
+              <p
+                class="mb-3 font-serif text-black max-w-xl lg:text-lg text-2xl"
+              >
+                2019 - 2022
+              </p>
+              <p
+                class="mb-3 font-medium text-base text-slate-700 max-w-xl flex"
+              >
+                - Saya Bersekolah di SMKN 1 SUMENEP dengan jurusan Rekayasa
+                Perangkat Lunak (RPL)
+              </p>
+            </div>
+            <h2 class="font-bold text-dark text-3xl mb-2 max-w-md lg:4xl py-5">
+              Pengalaman
+            </h2>
+            <div class="bg-slate-100 px-3 py-2 rounded-lg">
+              <p class="font-serif text-black max-w-xl lg:text-lg text-2xl">
+                Dinas Komunikasi dan Informatika
+              </p>
+              <p
+                class="mb-3 font-serif text-black max-w-xl lg:text-lg text-2xl"
+              >
+                Magang 3 Bulan / 2020
+              </p>
+              <p
+                class="mb-3 font-medium text-base text-slate-700 max-w-xl flex"
+              >
+                - Saya pernah mengambil bagian dalam program magang di Dinas
+                Komunikasi Dan Informatika Sumenep selama periode 3 bulan.
+              </p>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Melangkah Menuju PENS:
+            </h3>
+            <div class="">
+              <p
+                class="font-medium text-base text-slate-700 mb-6 lg:text-lg max-w-xl"
+              >
+                Saya memiliki pengalaman magang selama 3 bulan di Dinas
+                Komunikasi dan Informatika Sumenep. Selama magang, saya aktif
+                terlibat dalam program-program yang mereka jalankan.
+              </p>
+              <p
+                class="font-medium text-base text-slate-700 mb-6 lg:text-lg max-w-xl"
+              >
+                Dengan latar belakang pendidikan di SMKN 1 Sumenep dan
+                pengalaman magang di Dinas Komunikasi dan Informatika, saya
+                bersemangat untuk melanjutkan pendidikan di PENS dan terus
+                mengembangkan kemampuan saya dalam dunia teknologi.
+              </p>
+            </div>
+            <div class="flex items-center">
+              <!-- Instagram -->
+              <a
+                href="http://Instagram.com/ivandi_ydwn"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:bg-primary hover:border-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.tiktok.com/@ivan.ydwn"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:bg-primary hover:border-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Facebook -->
+              <a
+                href="http://Facebook.com/ivandi_ydwn"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:bg-primary hover:border-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Facebook</title>
+                  <path
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aobout section End -->
+
+    <!-- Galery Section Start -->
+    <section id="galery" class="bg-slate-100 pt-36 pb-16 dark:bg-slate-800">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary"></h4>
+            <h2
+              class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
+            >
+              Galery
+            </h2>
+            <p class="text-md font-medium text-secondary md:text-lg">
+              Galeri foto: jejak kenangan, kisah yang terabadikan dalam setiap
+              frame. Setiap gambar, satu cerita; melihat dunia dalam piksel dan
+              warna
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                class="hover:scale-110 transition-all transform duration-300"
+                src="../dist/img/Portofolio/ivan1.jpeg"
+                alt="Landing Page"
+                width="w-full"
+              />
+            </div>
+            <h3
+              class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+            >
+              Menjelajah dan berpetualang.
+            </h3>
+            <p class="text-base font-medium text-secondary">
+              "Mungkin banyak yang lebih nyaman dengan keramaian kota, tapi
+              terkadang hidup memanggil untuk merasakan ketenangan, menjauh dari
+              hiruk-pikuk. Menjelajah, berpetualang, dan mengenal hal-hal baru
+              yang belum pernah kita temui. Ada keindahan tersendiri di setiap
+              langkah yang membawa kita keluar dari zona nyaman.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                class="hover:scale-110 transition-all transform duration-300"
+                src="../dist/img/Portofolio/ivan2.jpeg"
+                alt="E-Commerce"
+                width="w-full"
+              />
+            </div>
+            <h3
+              class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+            >
+              Ketenangan Alam
+            </h3>
+            <p class="text-base font-medium text-secondary">
+              "Dalam senyap alam yang menenangkan, setiap momen adalah sebuah
+              karya seni yang abadi. Dedikasi pepohonan, melodi gemericik
+              sungai, dan lukisan langit yang berubah warna menciptakan harmoni
+              alam yang mendalam. Dalam keanggunan ini, kita diajak merenung,
+              menghargai, dan meresapi pesona kehidupan yang terkandung di
+              setiap detailnya.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                class="hover:scale-110 transition-all transform duration-300"
+                src="../dist/img/Portofolio/ivan3.jpeg"
+                alt="Technical Documentation"
+                width="w-full"
+              />
+            </div>
+            <h3
+              class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+            >
+              Sederhana dan Damai
+            </h3>
+            <p class="text-base font-medium text-secondary">
+              "Di pantai, jejak hidup terukir di pasir, dan ombak menjadi
+              penenang jiwa. Ketenangan ditemukan dalam sederhana, di mana alam
+              bicara dengan tenang.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                class="hover:scale-110 transition-all transform duration-300"
+                src="../dist/img/Portofolio/ivan4.jpeg"
+                alt="Tribute Page"
+                width="w-full"
+              />
+            </div>
+            <h3
+              class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+            >
+              Alam dan teman teman.
+            </h3>
+            <p class="text-base font-medium text-secondary">
+              Akan lebih menyenangkan bermain di alam bersama teman teman, kita
+              dapat mengukir kisah dan cerita berbagi pengalaman berbagi
+              pendapat tentang kehidupan, banyak hal-hal yang bisa kita ciptakan
+              lalu kita ceritakan di hari esok.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Galery Section End -->
+
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary">Hubungi</h4>
+            <h2
+              class="mb-4 text-3xl font-bold text-dark dark:text-500 sm:text-4xl lg:text-5xl"
+            >
+              Hubungi Saya
+            </h2>
+            <p class="text-md font-medium text-secondary md:text-lg">
+              Jika terdapat kritik dan masukan, mohon mengisi formulir di bawah
+              ini. Saran dan pandangan Anda sangat berarti bagi saya.
+            </p>
+          </div>
+        </div>
+
+        <form name="portofolio-sheet">
+          <div class="w-full lg:mx-auto lg:w-2/4">
+            <div class="mb-8 w-full px-4">
+              <label for="name" class="text-base font-bold text-primary"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="nama"
+                class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="email" class="text-base font-bold text-primary"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="message" class="text-base font-bold text-primary"
+                >Pesan</label
+              >
+              <textarea
+                id="message"
+                name="pesan"
+                class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              ></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                type="button"
+                class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg relative"
+                onclick="submitForm()"
+              >
+                <span id="button-text">Kirim</span>
+                <span id="loading" class="hidden ml-2 animate-spin">
+                  &#9696;
+                </span>
+                <span id="loading-text" class="hidden ml-2"> Loading... </span>
+              </button>
+              <div class="mt-4 flex justify-center">
+                <div id="validation-messages" class="text-center">
+                  <div
+                    id="success-message"
+                    class="hidden bg-green-100 border border-green-400 text-green-700 px-12 py-2 rounded-md text-base md:text-sm"
+                  >
+                    Pesan terkirim.!
+                  </div>
+                  <div
+                    id="error-message"
+                    class="hidden bg-red-100 border border-red-400 text-red-700 px-3 py-1 rounded-md text-base md:text-sm"
+                  >
+                    Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Back to top Start -->
+    <a
+      href="#home"
+      class="fixed bottom-4 right-4 z-[9999] hidden h-12 w-12 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse"
+      id="to-top"
+    >
+      <span class="mt-2 block h-4 w-4 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+    <!-- Back to top End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+      function submitForm() {
+        const scriptURL =
+          "https://script.google.com/macros/s/AKfycbyFWrU5sNfe--_uzPc4gO-eLpueeUhNFap7udxhDz_dgVdW2L_8hHPoCGBeD5nC9fHQ/exec";
+        const form = document.forms["portofolio-sheet"];
+        const successMessage = document.getElementById("success-message");
+        const errorMessage = document.getElementById("error-message");
+        const buttonText = document.getElementById("button-text");
+        const loading = document.getElementById("loading");
+        const loadingText = document.getElementById("loading-text");
+
+        if (form) {
+          buttonText.style.display = "none";
+          loading.style.display = "inline-block";
+          loadingText.style.display = "inline-block";
+
+          fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+              buttonText.style.display = "inline-block";
+              loading.style.display = "none";
+              loadingText.style.display = "none";
+
+              if (!response.ok) {
+                throw new Error("Network response was not ok");
+              }
+              console.log("Success!", response);
+              successMessage.classList.remove("hidden");
+              form.reset();
+              setTimeout(() => {
+                successMessage.classList.add("hidden");
+              }, 3000);
+            })
+            .catch((error) => {
+              console.error("Error!", error.message);
+              errorMessage.classList.remove("hidden");
+              setTimeout(() => {
+                errorMessage.classList.add("hidden");
+              }, 3000);
+            });
+        } else {
+          console.error("Form not found with name 'portofolio-sheet'");
+        }
+      }
+
+      gsap.fromTo(
+        "#ivan-img",
+        { rotationY: 0 },
+        { rotationY: 360, duration: 3 }
+      );
+    </script>
+    >
+
+    <script src="../dist/img/js/script.js"></script>
+  </body>
+</html>
